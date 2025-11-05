@@ -29,6 +29,14 @@ div {
     border: none;
 }
 
+
+ul {
+        margin-left: 2em; /* vagy padding-left: 2em; */
+        list-style-position: inside; /* vagy outside, ha máshogy szeretnénk */
+        /* list-style-position: outside; vagy inside, ha máshogy szeretnénk */
+        list-style-type: "- "; /* vagy "– " hosszabb gondolatjelhez */
+    }
+
 header,
 footer {
     background-color: dodgerblue;
