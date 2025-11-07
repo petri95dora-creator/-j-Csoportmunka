@@ -133,3 +133,39 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+.jason { 
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+   
+
+
+}
+.hatter {
+    background-color: lightgray;
+}
+.dori_kepe { 
+    object-fit: fill;
+    object-position: center;
+}
+
+#fc3kepek {
+     display: grid;
+    /*oszlopok+sorok*/
+    /*1 oszlop*/
+    /*Y sor=gyerekek száma*/
+    /**/
+
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, auto);
+    /* grid-template-rows: auto auto auto auto ; */
+    grid-template-rows: repeat(3, auto);
+    gap: 8px;
+    height: 65%;
+}
+    
